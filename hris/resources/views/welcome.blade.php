@@ -11,6 +11,7 @@
     <div id="app">
         <h2>Welcome Page</h2>
         <h4>Login</h4>
+        <login-component></login-component>
     </div>
 
     <script src="{{asset('js/app.js')}}"></script>
