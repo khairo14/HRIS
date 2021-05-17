@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             'middle_name' => 'Valdez',
             'last_name' => 'Bradecina',
             'email' => 'khairo.smile@gmail.com',
-            'password' => bcrypt('Playtime14!'),
+            'password' => Hash::make('Playtime14!'),
         ]);
     }
 }
