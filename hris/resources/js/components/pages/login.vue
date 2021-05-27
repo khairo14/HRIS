@@ -1,5 +1,4 @@
 <template>
-
     <div class="wrapper">
         <div class="container">
             <h5>Login Form</h5>

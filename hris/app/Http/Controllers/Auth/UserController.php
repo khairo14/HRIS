@@ -10,7 +10,6 @@ use App\Models\User;
 
 class UserController extends Controller
 {
-
     public function login(Request $request){
         $fields = $request->validate([
             'email' => 'required|string',
