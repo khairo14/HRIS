@@ -3,17 +3,17 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import dashboard from './components/pages/dashboard'
+
 import login from './components/pages/login'
+import home from './components/pages/home'
 const routes = [
+    {
+        path: '/',
+        component: home,
+    },
     {
         path: '/login',
         component: login,
-    },
-
-    {
-        path: '/dashboard',
-        component: dashboard
     },
 ]
 
