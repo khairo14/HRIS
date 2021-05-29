@@ -1,8 +1,10 @@
 <template>
-<div>
+<div class="wrapper">
     <!-----header------------->
         <div class="header">
-            <h5>profile</h5>
+            <div class="col-md">
+                <h5>profile</h5>
+            </div>
         </div>
     <!-----header------------->
     <!-----sidebar------------->
