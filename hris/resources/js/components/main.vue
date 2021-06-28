@@ -28,10 +28,11 @@
             </v-list>
         </v-navigation-drawer>
     <!-- header -->
-        <v-toolbar color="blue">
+        <v-app-bar color="blue">
         <v-app-bar-nav-icon @click="miniVariant = !miniVariant" class="text-white"></v-app-bar-nav-icon>
         <v-toolbar-title class="text-white">Project Oreo</v-toolbar-title>
-        </v-toolbar>
+
+        </v-app-bar>
     <!-- content -->
         <v-container fluid>
             <router-view></router-view>
@@ -53,8 +54,9 @@ export default {
         miniVariant: true,
 
         links: [
-          { icon:'mdi-view-dashboard', title: 'Dashboard', route: '/' },
-          { icon:'mdi-account-circle', title: 'Users', route: '/login' },
+          { icon:'mdi-view-dashboard', title: 'Dashboard', route: '/home' },
+          { icon:'mdi-account-circle', title: 'Users', route: '/users' },
+         // { icon:'mdi-account-circle', title: 'Users', route: '/users' },
 
         ],
 

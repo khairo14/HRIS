@@ -17,6 +17,7 @@ use App\Http\Controllers\Auth\UserController;
 
 // Public Routes
 Route::post('/login', [UserController::class,'login']);
+Route::get('/users', [UserController::class,'index']);
 
 // Protected Routes
 Route::group(['middleware'=>['auth:sanctum']], function () {
